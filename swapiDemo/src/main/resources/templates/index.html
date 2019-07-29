@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Star Wars API Demo</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<h1 id="title">SWAPI Demo</h1>
+	
+	<div id="info-container-1">
+		<h1 id='name'></h1>
+		<p id='height'></p>
+		<p id='mass'></p>
+		<p id='skincolor'></p>		
+	</div>
+	
+	<div id="info-container-2">
+		<h1 id='name'></h1>
+		<p id='climate'></p>
+		<p id='gravity'></p>
+		<p id='terrain'></p>		
+	</div>
+	
+	<div id="info-container-3">
+		<h1 id='name'></h1>
+		<p id='model'></p>
+		<p id='manufacturer'></p>
+		<p id='crew'></p>		
+	</div>
+	
+	<button type="button" id='button1' name="button1">Find a Person</button>
+	<button type="button" id='button2' name="button2">Find a Planet</button>
+	<button type="button" id='button3' name="button3">Find a Starship</button>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+	<script src="/js/app.js" charset="utf-8"></script>
+</body>
+</html>
